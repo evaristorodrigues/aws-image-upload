@@ -23,8 +23,8 @@ public class AmazonConfig {
 	
 	@Bean
 	public AmazonS3 s3() {
-		String accessKey="AKIAJF4XX3EPDY2EK24Q";
-		String secretKey="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";
+		String accessKey="";
+		String secretKey="";
 
 		AWSCredentials awsCredentials = new BasicAWSCredentials(
 				accessKey, secretKey);
